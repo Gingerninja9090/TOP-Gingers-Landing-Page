@@ -1,7 +1,54 @@
-/* test */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    margin: 0;
+}
 
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.header-title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    }
+
+.header, .about, .footer {
+    background-color: #1f2937;
+}
+
+.about, .content4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
