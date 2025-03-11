@@ -1,3 +1,5 @@
+/* Global styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
@@ -6,6 +8,16 @@ body {
     font-family: 'Roboto';
     margin: 0;
 }
+
+.header, .about, .footer {
+    background-color: #1f2937;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+/* Header styles */
 
 .header {
     display: flex;
@@ -25,30 +37,86 @@ body {
     font-size: 18px;
     }
 
-.header, .about, .footer {
-    background-color: #1f2937;
-}
+/* About style */
 
-.about, .content4 {
+.about, .signup {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.content2 {
+.about-head {
+    color: #E5E7EB;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.about-info {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.about-button {
+    border: 0;
+    border-radius: 4px;
+}
+
+/* Info style */
+
+.info-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.content3 {
+.info-content {
+    margin: 0px 24px;
+}
+
+.info-img {
+    border: 2px solid #3882F6;
+}
+
+/* Quote style */
+
+.quote {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #e5e7e5
 }
+
+/* Signup style */
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+}
+
+.signup {
+    background-color: #3882F6;
+    justify-content: space-around;
+}
+
+.signup-button {
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+/* Footer */
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #F9FAF8;
 }
