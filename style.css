@@ -15,6 +15,10 @@ body {
 
 button {
     background-color: #3882F6;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 /* Header styles */
@@ -22,7 +26,8 @@ button {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding-top: 10px;
 }
 
 .header-title {
@@ -35,14 +40,21 @@ button {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    padding: 8px;
     }
 
 /* About style */
 
-.about, .signup {
+.about {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    padding: 72px 0px;
+}
+
+.about-text {
+    width: 440px;
+    height: 200px;
 }
 
 .about-head {
@@ -57,8 +69,20 @@ button {
 }
 
 .about-button {
+    color: white;
     border: 0;
-    border-radius: 4px;
+    border-radius: 5px;
+    margin-top: 8px;
+    font-weight: 900;
+}
+
+.about-image {
+    width: 440px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Info style */
@@ -70,21 +94,28 @@ button {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
+    padding: 32px 0px;
 }
 
 .info {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .info-content {
     margin: 0px 24px;
+    text-align: center;
 }
 
 .info-img {
+    width: 150px;
+    height: 150px;
+    background-color: grey;
     border: 2px solid #3882F6;
 }
+
 
 /* Quote style */
 
@@ -92,24 +123,46 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e5e7e5
+    flex-direction: column;
+    background-color: #e5e7e5;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-info {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    margin-left: auto;
 }
 
 /* Signup style */
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    width: 450px;
+}
 
 .signup-section {
     display: flex;
     justify-content: center;
 }
 
-.signup {
-    background-color: #3882F6;
-    justify-content: space-around;
-}
-
 .signup-button {
     border: 2px solid white;
     border-radius: 4px;
+}
+
+.test1 {
+    font-size: xx-large;
+}
+
+.test2 {
+    font-size: small;
 }
 
 /* Footer */
