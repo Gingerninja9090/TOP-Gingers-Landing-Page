@@ -45,6 +45,11 @@ button:hover {
     color: aqua;
 }
 
+.info-title, .quote {
+    color: #1f2937;
+    font-size: 36px;
+}
+
 /* Hero Section */
 
 .hero {
@@ -66,4 +71,59 @@ button:hover {
 
 .about-text {
     padding-bottom: 12px;
+}
+
+/* Info Section */
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.info-title {
+    font-weight: 900;
+    padding: 32px 0px;
+}
+
+.info-boxes {
+    text-align: center;
+    display: flex;
+    gap: 28px;
+}
+
+.info, .info-img {
+    width: 180px;
+}
+
+.info-img {
+    height: 180px;
+    border-radius: 5px;
+}
+
+/* Quote Section */
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px;
+}
+
+.quote, .quote-ref {
+    width: 825px;
+}
+
+.quote {
+    font-style: italic;
+    justify-content: center;
+}
+
+.quote-ref {
+    font-weight: 900;
+    text-align: right;
 }
