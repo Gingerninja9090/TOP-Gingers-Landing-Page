@@ -52,7 +52,7 @@ button:hover {
 
 /* Hero Section */
 
-.hero {
+.hero, .footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,4 +126,38 @@ button:hover {
 .quote-ref {
     font-weight: 900;
     text-align: right;
+}
+
+/* Signup Section */
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+}
+
+.signup-box {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding: 32px 16px;
+}
+
+.signup-header {
+    font-weight: 900;
+}
+
+.signup-button {
+    border: 3px solid #F9FAF8;
+}
+
+/* Footer Section */
+
+.footer {
+    color: #F9FAF8;
+    padding: 32px 0px;
 }
