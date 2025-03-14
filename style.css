@@ -41,7 +41,7 @@ button {
     border-radius: 5px;
 }
 
-button:hover {
+button:hover, a:hover {
     color: aqua;
 }
 
@@ -158,6 +158,7 @@ button:hover {
 /* Footer Section */
 
 .footer {
+    flex-direction: column;
     color: #F9FAF8;
     padding: 32px 0px;
 }
